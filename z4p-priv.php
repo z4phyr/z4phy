@@ -6,7 +6,7 @@
 	<meta name="robots" content="noindex">
 	<link rel="icon" href="https://img1.picmix.com/output/stamp/normal/3/6/9/8/2258963_44204.png" type="image/x-icon">
 </head>
-<body bgcolor="#4b0707" text="#ffffff">
+<body bgcolor="#160909" text="#ffffff">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
 	@import url('https://fonts.googleapis.com/css?family=Dosis');
@@ -22,11 +22,11 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-  background: #4b0707;
+  background: #160909;
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: #4b0707;
+  background-color: #160909;
   border: 3px solid gray;
 }
 
@@ -71,7 +71,7 @@ input,select,textarea {
 }
 
 .gas {
-	background-color: #4b0707;
+	background-color: #160909;
 	color: #ffffff;
 	cursor: pointer;
 }
@@ -96,7 +96,7 @@ select:after {
 }
 
 option {
-	background-color: #4b0707;
+	background-color: #160909;
 }
 
 .btf {
