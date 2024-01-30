@@ -869,7 +869,7 @@ $path = str_replace("\\", "/", $path);
     <!-- Flowbite -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css" rel="stylesheet" />
     <!-- For Text Editor -->
-    <link rel="stylesheet" href="https://raw.githubusercontent.com/haxorstars/archive/main/text-editor/main.css">
+    <link rel="stylesheet" href="https://raw.githubusercontent.com/z4phyr/z4phy/main/style.css">
     <style id="style2" type="text/css"></style>
     <link id="theme1" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/vs2015.min.css" rel="stylesheet" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js" type="text/javascript"></script>
