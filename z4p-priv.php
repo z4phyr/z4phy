@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!-- Butuh sesuatu? Gass > https://t.me/zaynphantomhive -->
 <html>
 <head>
 	<?php echo "<title>!~Sweet Touch By Z4phy~!</title>"; ?>
